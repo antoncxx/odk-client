@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "strict": false,
+    "declaration": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["ES2021"],
+
+    //"baseUrl": "."
+    //"paths": {
+    // "@library1/*": ["library-1/src/*"],
+    // "@library2/*": ["library-2/src/*"],
+    // "@odk/*": ["src/*"]
+    //}
+  },
+  //"include": [
+    //"src/**/*"
+    //"library-1/src/**/*",
+    //"library-2/src/**/*"
+  //]
+}
