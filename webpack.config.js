@@ -1,7 +1,5 @@
 const path = require('path');
 
-console.log(path.resolve(__dirname, 'odk/library1/src'))
-
 module.exports = {
   target: 'node',
   entry: './src/index.ts',
@@ -16,7 +14,7 @@ module.exports = {
     rules: [
       {
         test: /\.ts$/,
-        exclude: [/node_modules/],
+        exclude: [/node_modules/, /\.test\.(ts|js)$/],
         loader: 'ts-loader',
       },
     ],

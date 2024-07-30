@@ -13,8 +13,8 @@ module.exports = {
   ],
   setupFilesAfterEnv: ['./jest.setup.js'],
   moduleNameMapper: {
-    '^@library1/(.*)$': '<rootDir>/library-1/src/$1',
-    '^@library2/(.*)$': '<rootDir>/library-2/src/$1',
-    '^@odk/(.*)$': '<rootDir>/src/$1',
+    '^@library1/(.*)$': '<rootDir>/odk/library-1/src/$1',
+    '^@library2/(.*)$': '<rootDir>/odk/library-2/src/$1',
+    '^@odk/(.*)$': '<rootDir>/odk/src/$1',
   },
 };
