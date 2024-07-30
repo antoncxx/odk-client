@@ -14,16 +14,17 @@
     "forceConsistentCasingInFileNames": true,
     "lib": ["ES2021"],
 
-    //"baseUrl": "."
-    //"paths": {
-    // "@library1/*": ["library-1/src/*"],
-    // "@library2/*": ["library-2/src/*"],
-    // "@odk/*": ["src/*"]
-    //}
+    "baseUrl": ".",
+    "paths": {
+      "@library1/*": ["odk/library-1/src/*"],
+      "@library2/*": ["odk/library-2/src/*"],
+      "@odk/*": ["odk/src/*"]
+    }
   },
-  //"include": [
-    //"src/**/*"
-    //"library-1/src/**/*",
-    //"library-2/src/**/*"
-  //]
+  "include": [
+    "src/**/*",
+    "odk/library-1/src/**/*",
+    "odk/library-2/src/**/*",
+    "odk/src/**/*"
+  ]
 }
