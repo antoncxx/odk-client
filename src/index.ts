@@ -15,3 +15,5 @@ process.stdout.write(`Expect ${e1} to be ${e2}\n`);
 process.stdout.write(
   `Clamp result of -2 in range of [0, 1] is ${MathUtils.clamp(-2, 0, 1)}\n`,
 );
+
+process.stdout.write('Done\n');
