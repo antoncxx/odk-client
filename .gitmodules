@@ -4,3 +4,6 @@
 [submodule "library-2"]
 	path = library-2
 	url = https://github.com/antoncxx/library-2
+[submodule "odk"]
+	path = odk
+	url = https://github.com/antoncxx/odk
